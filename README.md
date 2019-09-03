@@ -24,10 +24,10 @@ yarn add regional-selection
 ```javascript
 
 // import包
-import regional-selection from 'regional-selection'
+import regionalSelection from 'regional-selection'
 
 // use
-Vue.use(regional-selection)
+Vue.use(regionalSelection)
 ```
 
 使用：
