@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>regionalSelection</title>
+  </head>
+  <body>
+    <div id="app">
+      <regional-selection
+        :pickedCity="pickedCity"
+        @on-pick-city="pickedCity = $event"
+        :showClose="true"
+      ></regional-selection>
+      <div class="pick-result">
+        <pre>
+          {{JSON.stringify(pickedCity, null, ' ')}}
+        </pre>
+      </div>
+    </div>
+    
+    <!-- 如果项目npm安装完毕后无法运行，注释这段即可。 -->
+    <script src="https://cdn.bootcss.com/vue/2.5.18-beta.0/vue.min.js"></script>
+    <script src="./dist/regionalSelection.js"></script>
+    <script>
+      // new Vue({
+      //   el: '#app',
+      //   data() {
+      //     return {
+      //       pickedCity: []
+      //     }
+      //   }
+      // })
+    </script>
+  </body>
+</html>
