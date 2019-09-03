@@ -13,9 +13,9 @@
 ## 安装插件方式
 
 ``` bash
-npm install regionalSelection --save
+npm install regional-selection --save
 # 或者
-yarn add regionalSelection
+yarn add regional-selection
 ```
 
 ## 用法
@@ -24,10 +24,10 @@ yarn add regionalSelection
 ```javascript
 
 // import包
-import regionalSelection from 'regionalSelection'
+import regional-selection from 'regional-selection'
 
 // use
-Vue.use(regionalSelection)
+Vue.use(regional-selection)
 ```
 
 使用：

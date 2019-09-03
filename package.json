@@ -4,7 +4,7 @@
   "keywords": [
     "vue",
     "component",
-    "regionalSelection",
+    "regional-selection",
     "城市选择",
     "组件"
   ],
@@ -13,10 +13,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zky86/regionalSelection.git"
+    "url": "https://github.com/zky86/regional-selection.git"
   },
   "private": false,
-  "main": "dist/regionalSelection.js",
+  "main": "dist/regional-selection.js",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"

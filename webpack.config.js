@@ -7,8 +7,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'regionalSelection.js',
-    library: 'regionalSelection',
+    filename: 'regional-selection.js',
+    library: 'regional-selection',
     libraryTarget: 'umd',
     umdNamedDefine: true
   },
