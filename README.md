@@ -8,7 +8,9 @@
 4. 传入数据，返回数据可灵活处理。
 5. 可根据自己实际业务扩展。
 
-## 安装
+![Image text](https://images.vrm.cn/2019/09/03/regionalSelection.png)
+
+## 安装插件方式
 
 ``` bash
 npm install regionalSelection --save
@@ -82,8 +84,8 @@ data () {
 ## 本地运行
 
 ```bash
-npm install
-npm run dev
+安装：npm install
+运行：npm run dev
 ```
 
 如果项目npm安装完毕后无法运行，找到index.html文件里面这段注释即可。
