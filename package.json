@@ -1,7 +1,13 @@
 {
   "name": "regional-selection",
   "description": "Vue城市选择组件。",
-  "keywords": ["vue", "component", "regionalSelection", "城市选择", "组件"],
+  "keywords": [
+    "vue",
+    "component",
+    "regionalSelection",
+    "城市选择",
+    "组件"
+  ],
   "version": "1.0.0",
   "author": "zky86 <272495222@qq.com>",
   "license": "MIT",
